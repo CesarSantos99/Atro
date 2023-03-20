@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: none;
 }
 
 #div-main {
@@ -27,4 +28,56 @@ input {
     background-color: #140F26;
     opacity: 0.8;
     margin-top: 150px;
+    color: #ffffff;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.button-sign {
+    height: 50px;
+    border: none;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(#645AFF 50%, #A573FF);
+}
+
+.button-sign:active {
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+}
+
+.button-facebook {
+    width: 80%;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    opacity: 0.4;
+    color: #FFFFFF;
+    text-transform: upperc
+}
+
+.button-facebook:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+.div-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 80px;
+    color: #FFFFFF;
 }
